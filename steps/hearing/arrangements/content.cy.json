@@ -1,75 +1,75 @@
 {
-  "titleHead": "Hearing arrangements confirm - Appeal a benefit decision - GOV.UK",
-  "title": "Support at the hearing",
-  "clickAllArrangements": "Click all the support you need at the hearing.",
-  "you": "You",
-  "cant": "can’t",
-  "bringYourOwnInterpreter": "bring your own interpreter to the hearing.",
-  "doNotNeedArrangements": "I don’t need any arrangements made for the hearing",
+  "titleHead": "Cadarnhau trefniadau’r gwrandawiad – Apelio yn erbyn penderfyniad ynghylch budd-dal - GOV.UK",
+  "title": "Cymorth yn y gwrandawiad",
+  "clickAllArrangements": "Cliciwch ar yr holl gymorth sydd ei angen arnoch yn y gwrandawiad.",
+  "you": "Ni",
+  "cant": "allwch",
+  "bringYourOwnInterpreter": "ddod â chyfieithydd eich hun i’r gwrandawiad.",
+  "doNotNeedArrangements": "Nid oes arnaf angen unrhyw drefniadau arbennig ar gyfer y gwrandawiad",
   "fields": {
     "selection": {
-      "label": "Select the support you need",
+      "label": "Dewiswch pa gymorth sydd ei angen  arnoch",
       "error": {
-        "required": "You need to provide some information about the support you need"
+        "required": "Mae angen i chi ddarparu rhywfaint o wybodaeth am y cymorth sydd ei angen arnoch"
       },
       "languageInterpreter": {
         "requested": {
-          "label": "Language interpreter"
+          "label": "Cyfieithydd"
         },
         "language": {
-          "label": "Enter the language",
+          "label": "Nodwch yr iaith",
           "error": {
-            "required": "You need to say which language you need a translator for.",
-            "invalid": "You need to say which language you need a translator for."
+            "required": "Mae angen i chi ddweud pa iaith y mae angen cyfieithydd ar ei chyfer.",
+            "invalid": "Mae angen i chi ddweud pa iaith y mae angen cyfieithydd ar ei chyfer."
           }
         }
       },
       "signLanguage": {
         "requested": {
-          "label": "Sign language interpreter"
+          "label": "Dehonglydd  iaith arwyddion"
         },
         "language": {
-          "label": "Enter the language",
-          "hint": "Enter what type of sign language you need. For example, British Sign Language.",
+          "label": "Nodwch yr iaith",
+          "hint": "Nodwch pa fath o iaith arwyddion yr ydych angen dehonglydd ar ei chyfer. Er enghraifft, Iaith Arwyddion Prydain.",
           "error": {
-            "required": "You need to enter which sign language you need a translator for.",
-            "invalid": "You need to enter which sign language you need a translator for."
+            "required": "Mae angen ichi nodi pa fath o iaith arwyddion yr ydych angen dehonglydd ar ei chyfer.",
+            "invalid": "Mae angen ichi nodi pa fath o iaith arwyddion yr ydych angen dehonglydd ar ei chyfer."
           }
         }
       },
       "hearingLoop": {
         "requested": {
-          "label": "Hearing loop"
+          "label": "Dolen Glyw"
         }
       },
       "accessibleHearingRoom": {
         "requested": {
-          "label": "Accessible hearing rooms"
+          "label": "Ystafelloedd hygyrch ar gyfer cynnal gwrandawiadau"
         }
       },
       "anythingElse": {
         "requested": {
-          "label": "Other support"
+          "label": "Cymorth arall"
         },
         "language": {
-          "label": "Explain what other support you need at your appeal hearing",
+          "label": "Esboniwch pa gymorth arall sydd ei angen arnoch yn ystod gwrandawiad eich apêl",
           "error": {
-            "required": "You need to provide some information about the support you need",
-            "invalid": "You have entered a special character that is not allowed. Delete it before continuing."
+            "required": "Mae angen i chi ddarparu rhywfaint o wybodaeth am y cymorth sydd ei angen arnoch",
+            "invalid": "Rydych wedi cynnwys nod arbennig nad yw'n cael ei ganiatáu. Rhaid ichi ei ddileu cyn parhau."
           }
         }
       }
     }
   },
   "cya": {
-    "arrangements": "Hearing arrangements",
-    "change": "Change",
-    "interpreterLanguage": "Language interpreter",
-    "signLanguage": "Sign language interpreter",
-    "hearingLoop": "Hearing loop",
-    "accessibleHearingRoom": "Accessible hearing rooms",
-    "anythingElse": "Other",
-    "required": "Required",
-    "notRequired": "Not required"
+    "arrangements": "Trefniadau ar gyfer eich gwrandawiad",
+    "change": "Newid",
+    "interpreterLanguage": "Cyfieithydd",
+    "signLanguage": "Dehonglydd iaith arwyddion",
+    "hearingLoop": "Dolen Glyw",
+    "accessibleHearingRoom": "Ystafelloedd hygyrch ar gyfer cynnal gwrandawiadau",
+    "anythingElse": "Arall",
+    "required": "Gofynnol",
+    "notRequired": "Ddim yn ofynnol"
   }
 }

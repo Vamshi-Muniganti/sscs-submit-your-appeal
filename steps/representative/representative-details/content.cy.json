@@ -1,105 +1,105 @@
 {
-  "titleHead": "Enter representative details - Appeal a benefit decision - GOV.UK",
-  "title": "Enter their details",
-  "subtitle": "If you have a professional representative, you can find their contact details on any letter you've received from them.",
-  "noDetails": "I don’t have their details to hand",
+  "titleHead": "Manylion y cynrychiolydd - Apelio yn erbyn penderfyniad ynghylch budd-dal - GOV.UK",
+  "title": "Nodwch eu manylion",
+  "subtitle": "Os oes gennych gynrychiolydd proffesiynol, gallwch ddod o hyd i’w manylion cyswllt ar unrhyw lythyr rydych wedi’i gael ganddynt.",
+  "noDetails": "Nid yw eu manylion gennyf wrth law",
   "fields": {
     "name": {
       "error": {
-        "required": "Enter your representative's name or the organisation they work for",
-        "nameNoTitle": "Enter your representative's title",
-        "titleNoName": "Enter your representative's name"
+        "required": "Rhowch enw eich cynrychiolydd neu enw’r sefydliad mhant yn gweithio iddo",
+        "nameNoTitle": "Rhowch deitl eich cynrychiolydd",
+        "titleNoName": "Rhowch enw eich cynrychiolydd"
       },
       "title": {
-        "title": "Title",
+        "title": "Teitl",
         "error": {
-          "invalid": "You have entered an invalid title. Check it and enter it again"
+          "invalid": "Rydych wedi rhoi teitl annilys. Gwiriwch ef a’i nodi eto"
         }
       },
       "first": {
-        "title": "First name",
+        "title": "Enw cyntaf",
         "error": {
-          "required": "Enter your representative's first name",
-          "invalid": "You have entered an invalid first name. Check it and enter it again"
+          "required": "Nodwch enw cyntaf eich cynrychiolydd",
+          "invalid": "Rydych wedi rhoi enw cyntaf annilys. Gwiriwch ef a’i nodi eto"
         }
       },
       "last": {
-        "title": "Last name(s)",
+        "title": "Cyfenw(au)",
         "error": {
-          "required": "Enter your representative's surname",
-          "invalid": "You have entered an invalid surname. Check it and enter it again"
+          "required": "Nodwch gyfenw eich cynrychiolydd",
+          "invalid": "Rydych wedi rhoi cyfenw annilys. Gwiriwch ef a’i nodi"
         }
       },
       "organisation": {
-        "title": "Organisation (if they work for one)",
+        "title": "Sefydliad (os ydynt yn gweithio i un)",
         "error": {
-          "invalid": "You have entered an invalid name. Check it and enter it again"
+          "invalid": "Rydych wedi rhoi enw annilys. Gwiriwch ef a’i nodi eto"
         }
       }
     },
     "addressLine1": {
-      "title": "Address line 1",
-      "hint": "If they work for a national organisation, enter the address of your local branch",
+      "title": "Llinell gyntaf y cyfeiriad",
+      "hint": "Os ydynt yn gweithio i sefydliad cenedlaethol, rhowch gyfeiriad eich cangen leol",
       "error": {
-        "required": "Enter the first line of your representative's address"
+        "required": "Rhowch linell gyntaf cyfeiriad eich cynrychiolydd"
       }
     },
     "addressLine2": {
-      "title": "Address line 2 (optional)",
+      "title": " Ail linell y cyfeiriad (dewisol)",
       "error": {
-        "invalid": "You have entered an invalid second line of their address. Check it and enter it again"
+        "invalid": "Rydych wedi rhoi ail linell cyfeiriad annilys. Gwiriwch ef a’i nodi eto"
       }
     },
     "townCity": {
-      "title": "Town/City",
+      "title": "Tref/Dinas",
       "error": {
-        "required": "Enter the town or city from your representative's address"
+        "required": "Nodwch y dref neu'r ddinas o gyfeiriad eich cynrychiolydd"
       }
     },
     "county": {
-      "title": "County",
+      "title": "Sir",
       "error": {
-        "required": "Enter the county from your representative's address"
+        "required": "Nodwch y sir o gyfeiriad eich cynrychiolydd"
       }
     },
     "postCode": {
-      "title": "Postcode",
+      "title": "Cod post",
       "error": {
-        "required": "Enter the postcode from your representative's address"
+        "required": "Nodwch y cod post o gyfeiriad eich cynrychiolydd"
       }
     },
     "phoneNumber": {
-      "title": "Phone number (optional)",
-      "hint": "They will receive SMS updates about your appeal if you enter a mobile phone number",
+      "title": "Rhif ffôn (dewisol)",
+      "hint": "Byddant yn derbyn diweddariadau SMS am eich apêl os byddwch yn darparu rhif ffôn symudol",
       "error": {
-        "invalid": "You have entered an invalid phone number. Check it and enter it again"
+        "invalid": "Rydych wedi rhoi rhif ffôn annilys. Gwiriwch ef a’i nodi eto"
       }
     },
     "emailAddress": {
-      "title": "Email address (optional)",
-      "hint": "They will receive email updates about your appeal and a link so they can track your appeal online",
+      "title": "Cyfeiriad e-bost (dewisol)",
+      "hint": "Byddant yn derbyn negeseuon e-bost am eich apêl yn ogystal â dolen fel y gallant ddilyn trywydd eich apêl ar-lein",
       "error": {
-        "invalid": "You have entered an invalid email address. Check it and enter it again"
+        "invalid": "Rydych wedi rhoi cyfeiriad e-bost annilys. Gwiriwch ef a’i nodi eto."
       }
     }
   },
   "cya": {
     "name":{
-      "question": "Name"
+      "question": "Enw"
     },
     "organisation":{
-      "question": "Organisation"
+      "question": "Sefydliad"
     },
     "address":{
-      "question": "Address"
+      "question": "Cyfeiriad"
     },
     "phoneNumber": {
-      "question": "Phone number"
+      "question": "Rhif ffôn"
     },
     "emailAddress": {
-      "question": "Email address"
+      "question": "Cyfeiriad e-bost"
     },
-    "change": "Change",
-    "repDetails": "Representative Contact Details"
+    "change": "Newid",
+    "repDetails": "Manylion Cyswllt eich Cynrychiolydd"
   }
 }

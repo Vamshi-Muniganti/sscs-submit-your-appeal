@@ -1,13 +1,13 @@
 {
   "en": {
-    "title": "Idam login successfull?",
+    "title": "A wnaethoch lwyddo i fewngofnodi gyda’ch manylion Idam?",
     "errors": {
-      "required": "Select the an option"
+      "required": "Dewiswch opsiwn"
     },
     "fields": {
       "success": {
-        "yes": "Yes",
-        "no": "No"
+        "yes": "Do",
+        "no": "Naddo"
       }
     }
   }

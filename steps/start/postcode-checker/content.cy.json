@@ -1,14 +1,14 @@
 {
-  "titleHead": "Enter postcode - Appeal a benefit decision - GOV.UK",
-  "title": "Enter your postcode",
-  "subtitle": "This online service is only available in England and Wales.",
-  "subtitleScotland": "This online service is only available in England, Scotland and Wales.",
+  "titleHead": "Cod post - Apelio yn erbyn penderfyniad ynghylch budd-dal - GOV.UK",
+  "title": "Nodwch eich cod post",
+  "subtitle": "Mae’r gwasanaeth ar-lein hwn ond ar gael yng Nghymru a Lloegr.",
+  "subtitleScotland": "Mae’r gwasanaeth ar-lein hwn ond ar gael yng Nghymru, Lloegr a’r Alban.",
   "fields": {
     "postcode": {
-      "label": "Postcode",
+      "label": "Cod post",
       "error": {
-        "emptyField": "Enter your postcode to continue",
-        "invalid": "You have entered an invalid postcode. Enter your postcode to continue"
+        "emptyField": "Nodwch eich cod post i barhau",
+        "invalid": "Rydych wedi rhoi cod post annilys. Nodwch eich cod post i barhau"
       }
     }
   }
