@@ -2,8 +2,10 @@ const { expect } = require('test/util/chai');
 const paths = require('paths');
 const sinon = require('sinon');
 const proxyquire = require('proxyquire');
+const sessionPrimer = require('steps/entry/SessionPrimer');
 
 const mockHandler = sinon.spy();
+
 class RestoreFromDraftStore {
   constructor(params) {
     Object.assign(this, params);
@@ -46,7 +48,7 @@ describe('Entry.js', () => {
     });
   });
 
-  describe('Wen method user data is restored', () => {
+  describe('When method user data is restored', () => {
     const req = { session: { isUserSessionRestored: true } };
     const redirect = sinon.spy();
     const res = {
@@ -60,7 +62,7 @@ describe('Entry.js', () => {
     });
   });
 
-  describe('Wen method user data is not restored', () => {
+  describe('When method user data is not restored', () => {
     const req = { session: { isUserSessionRestored: false } };
     const redirect = sinon.spy();
     const res = {
@@ -71,6 +73,46 @@ describe('Entry.js', () => {
       entry.handler(req, res);
       expect(redirect.called).to.eql(false);
       expect(mockHandler.calledOnce).to.eql(true);
+    });
+  });
+
+  describe('When session is not already created', () => {
+    const req = { session: { generate: sinon.stub() } };
+    const redirect = sinon.spy();
+    const res = {
+      redirect
+    };
+    it('should generate session', () => {
+
+      sessionPrimer(req, res, () => {});
+      // expect(redirect.called).to.eql(false);
+      expect(req.session.generate).calledOnce;
+    });
+  });
+
+  describe('When session is not already created and cannot create', () => {
+    const req = { }
+    const redirect = sinon.spy();
+    const res = {
+      redirect
+    };
+    it('redirects', () => {
+      sessionPrimer(req, res, () => {});
+      expect(redirect.called).to.eql(true);
+    });
+  });
+
+
+  describe('When session already exists', () => {
+    const req = { session: { isUserSessionRestored: false } };
+    const redirect = sinon.spy();
+    const res = {
+      redirect
+    };
+    it('should not redirect', () => {
+
+      sessionPrimer(req, res, () => {});
+      expect(redirect.called).to.eql(false);
     });
   });
 });
