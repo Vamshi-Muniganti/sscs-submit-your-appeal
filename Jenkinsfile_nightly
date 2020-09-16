@@ -45,15 +45,6 @@ withNightlyPipeline("nodejs", product, component) {
         enableSlackNotifications('#sscs-tech')
      }
 
-     after('fullFunctionalTest') {
-
-        publishHTML target: [
-                allowMissing : true,
-                alwaysLinkToLastBuild: true,
-                keepAll : true,
-                reportDir : "output",
-                reportFiles : "SYA-e2e-result.html",
-                reportName : "SYA E2E functional tests result"
-        ]
+//    enableSlackNotifications('#sscs')  // can be turned back on once the overnight functionality is working fully
     }
 }
